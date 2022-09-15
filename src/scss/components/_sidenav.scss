@@ -18,6 +18,23 @@
             outline-color: lighten($primary, 15%);
         }
     }
+
+    .navbar-icon {
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.05rem;
+        color: $gray-400;
+        
+        img {
+            border: 0.20rem solid fade-out($white, 0.8);
+            max-width: 30px !important;
+        }
+    }
+
 }
 
 @include media-breakpoint-up(lg) {
